@@ -1,0 +1,53 @@
+.bg-container {
+  background-color: #1e293b;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+
+.heading {
+  font-size: 60px;
+  font-family: 'Bree Serif';
+  color: #f0bb03;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 95px;
+  }
+}
+
+.description {
+  font-size: 25px;
+  font-family: 'Bree Serif';
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .description {
+    font-size: 34px;
+  }
+}
+
+.button-subscribe {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border: none;
+  font-family: 'Bree Serif';
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .button-subscribe {
+    font-size: 18px;
+  }
+}
